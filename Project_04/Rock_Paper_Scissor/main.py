@@ -38,7 +38,7 @@ def rock_scissor():
     print(f"Computer choice= {computer_choice}")
 
     if user_guess==comp_no:
-        print('Draw Game')
+        print('Draww Game')
     elif user_guess==0 and comp_no==1:
         print("You Lose Paper beat Rock")
     elif user_guess==1 and comp_no==0:
